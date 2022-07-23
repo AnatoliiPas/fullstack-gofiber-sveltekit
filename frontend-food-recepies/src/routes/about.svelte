@@ -8,13 +8,13 @@
 	};
 
 	onMount(async () => {
-		const res = await fetch('http://127.0.0.1:8000/food-recepies/api/v1/recipes/index');
+		const res = await fetch('http://127.0.0.1:8000/food-recepies/api/v1/recipes/about');
 		result = await res.json();
 	});
 </script>
 
 <head>
-	<title>Главная</title>
+	<title>О проекте</title>
 </head>
 
 <center>
